@@ -1,0 +1,4 @@
+/.idea/
+*.iml
+/js/constants_fake.js
+/js/constants_real.js
