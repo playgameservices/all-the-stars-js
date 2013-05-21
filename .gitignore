@@ -2,3 +2,4 @@
 *.iml
 /js/constants_fake.js
 /js/constants_real.js
+/manifest_real.json
