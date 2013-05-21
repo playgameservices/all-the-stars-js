@@ -27,14 +27,15 @@ files are located there:
 
 * `constants.js` contains the OAuth 2.0 client ID
 * `game.js` handles the simple game logic and the button display
+* `index.js` registers click handlers for index.html. It is not inline to meet
+  content security policy of chrome packaged apps.
 * 'inventory.js` stores the player's inventory, and converts it to a cloud
   save format (via JSON-encoding and Base64-encoding)
 * `login.js` handles most of the initial login logic
+* `main.js` is used only when packing in a chrome apps to launch the app window.
 * `model.js` handles inventory management and performs all of the interaction
   with the cloud. This is probably the most interesting file for you to look at
 * `player.js` simply handles loading the player information so we can say hello.
-* `plugins.js` is from the HTML5 Boilerplate code, and it helps to ensure that
-  calling `console.log()` does not throw errors in old versions of IE
 
 
 ## Running the sample application
@@ -63,6 +64,21 @@ documentation
 
 That's it! Your application should be ready to run! (This application does
 not make use of achievements or leaderboards)
+
+That's it! Your application should be ready to run!
+
+## Running the sample as a Chrome Packaged App
+
+[Chrome Packaged Apps](https://developer.chrome.com/apps) enable apps to be
+written using HTML/JS/CSS, and this sample can be run with identical source
+for both hosted and packaged apps.
+
+1. Follow steps for running the sample application on a hosted server.
+2. From the [Google API console](https://code.google.com/apis/console)
+  `API Access` section, create a client ID for a chrome app. See
+  [Chrome Apps Identity](https://developer.chrome.com/apps/app_identity.html)
+  for how to obtain a stable app ID by adding a `key` to `manifest.json`.
+3. Edit the `manifest.json` file and add your client ID from the API console.
 
 That's it! Your application should be ready to run!
 
