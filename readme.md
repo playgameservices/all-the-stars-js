@@ -115,3 +115,5 @@ the location from which you are serving your application.
 ## Known issues
 
 This section will be filled out more once we hear from you.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-46743168-1/playgameservices/all-the-stars-js)](https://github.com/playgameservices/all-the-stars-js)
