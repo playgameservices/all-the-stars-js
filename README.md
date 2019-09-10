@@ -1,3 +1,3 @@
-Repository deprecated. The All The Stars JS sample moved
-to the [web-basic-samples repository](https://github.com/playgameservices/web-basic-samples).
+This repository has been removed.
 
+See the [Google Play Games Services](https://developers.google.com/games/services/) developer site for the latest APIs and documentation.
